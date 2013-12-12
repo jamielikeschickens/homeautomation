@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D506A65184BC552005E36E6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D506A64184BC552005E36E6 /* Cocoa.framework */; };
+		7D506A6F184BC552005E36E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D506A6D184BC552005E36E6 /* InfoPlist.strings */; };
+		7D506A71184BC552005E36E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D506A70184BC552005E36E6 /* main.m */; };
+		7D506A75184BC552005E36E6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D506A73184BC552005E36E6 /* Credits.rtf */; };
+		7D506A78184BC552005E36E6 /* JMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D506A77184BC552005E36E6 /* JMAppDelegate.m */; };
+		7D506A7B184BC552005E36E6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D506A79184BC552005E36E6 /* MainMenu.xib */; };
+		7D506A7D184BC552005E36E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D506A7C184BC552005E36E6 /* Images.xcassets */; };
+		7D506A84184BC552005E36E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D506A83184BC552005E36E6 /* XCTest.framework */; };
+		7D506A85184BC552005E36E6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D506A64184BC552005E36E6 /* Cocoa.framework */; };
+		7D506A8D184BC552005E36E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D506A8B184BC552005E36E6 /* InfoPlist.strings */; };
+		7D506A8F184BC552005E36E6 /* HomeAutomationMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D506A8E184BC552005E36E6 /* HomeAutomationMacTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D506A86184BC552005E36E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D506A59184BC551005E36E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D506A60184BC551005E36E6;
+			remoteInfo = HomeAutomationMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D506A61184BC551005E36E6 /* HomeAutomationMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeAutomationMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D506A64184BC552005E36E6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7D506A67184BC552005E36E6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7D506A68184BC552005E36E6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7D506A69184BC552005E36E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D506A6C184BC552005E36E6 /* HomeAutomationMac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeAutomationMac-Info.plist"; sourceTree = "<group>"; };
+		7D506A6E184BC552005E36E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D506A70184BC552005E36E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D506A72184BC552005E36E6 /* HomeAutomationMac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HomeAutomationMac-Prefix.pch"; sourceTree = "<group>"; };
+		7D506A74184BC552005E36E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7D506A76184BC552005E36E6 /* JMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMAppDelegate.h; sourceTree = "<group>"; };
+		7D506A77184BC552005E36E6 /* JMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMAppDelegate.m; sourceTree = "<group>"; };
+		7D506A7A184BC552005E36E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7D506A7C184BC552005E36E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7D506A82184BC552005E36E6 /* HomeAutomationMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeAutomationMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D506A83184BC552005E36E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7D506A8A184BC552005E36E6 /* HomeAutomationMacTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeAutomationMacTests-Info.plist"; sourceTree = "<group>"; };
+		7D506A8C184BC552005E36E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D506A8E184BC552005E36E6 /* HomeAutomationMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeAutomationMacTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D506A5E184BC551005E36E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D506A65184BC552005E36E6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D506A7F184BC552005E36E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D506A85184BC552005E36E6 /* Cocoa.framework in Frameworks */,
+				7D506A84184BC552005E36E6 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D506A58184BC551005E36E6 = {
+			isa = PBXGroup;
+			children = (
+				7D506A6A184BC552005E36E6 /* HomeAutomationMac */,
+				7D506A88184BC552005E36E6 /* HomeAutomationMacTests */,
+				7D506A63184BC551005E36E6 /* Frameworks */,
+				7D506A62184BC551005E36E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D506A62184BC551005E36E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D506A61184BC551005E36E6 /* HomeAutomationMac.app */,
+				7D506A82184BC552005E36E6 /* HomeAutomationMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D506A63184BC551005E36E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D506A64184BC552005E36E6 /* Cocoa.framework */,
+				7D506A83184BC552005E36E6 /* XCTest.framework */,
+				7D506A66184BC552005E36E6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D506A66184BC552005E36E6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D506A67184BC552005E36E6 /* AppKit.framework */,
+				7D506A68184BC552005E36E6 /* CoreData.framework */,
+				7D506A69184BC552005E36E6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7D506A6A184BC552005E36E6 /* HomeAutomationMac */ = {
+			isa = PBXGroup;
+			children = (
+				7D506A76184BC552005E36E6 /* JMAppDelegate.h */,
+				7D506A77184BC552005E36E6 /* JMAppDelegate.m */,
+				7D506A79184BC552005E36E6 /* MainMenu.xib */,
+				7D506A7C184BC552005E36E6 /* Images.xcassets */,
+				7D506A6B184BC552005E36E6 /* Supporting Files */,
+			);
+			path = HomeAutomationMac;
+			sourceTree = "<group>";
+		};
+		7D506A6B184BC552005E36E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D506A6C184BC552005E36E6 /* HomeAutomationMac-Info.plist */,
+				7D506A6D184BC552005E36E6 /* InfoPlist.strings */,
+				7D506A70184BC552005E36E6 /* main.m */,
+				7D506A72184BC552005E36E6 /* HomeAutomationMac-Prefix.pch */,
+				7D506A73184BC552005E36E6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D506A88184BC552005E36E6 /* HomeAutomationMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D506A8E184BC552005E36E6 /* HomeAutomationMacTests.m */,
+				7D506A89184BC552005E36E6 /* Supporting Files */,
+			);
+			path = HomeAutomationMacTests;
+			sourceTree = "<group>";
+		};
+		7D506A89184BC552005E36E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D506A8A184BC552005E36E6 /* HomeAutomationMacTests-Info.plist */,
+				7D506A8B184BC552005E36E6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D506A60184BC551005E36E6 /* HomeAutomationMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D506A92184BC552005E36E6 /* Build configuration list for PBXNativeTarget "HomeAutomationMac" */;
+			buildPhases = (
+				7D506A5D184BC551005E36E6 /* Sources */,
+				7D506A5E184BC551005E36E6 /* Frameworks */,
+				7D506A5F184BC551005E36E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeAutomationMac;
+			productName = HomeAutomationMac;
+			productReference = 7D506A61184BC551005E36E6 /* HomeAutomationMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D506A81184BC552005E36E6 /* HomeAutomationMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D506A95184BC552005E36E6 /* Build configuration list for PBXNativeTarget "HomeAutomationMacTests" */;
+			buildPhases = (
+				7D506A7E184BC552005E36E6 /* Sources */,
+				7D506A7F184BC552005E36E6 /* Frameworks */,
+				7D506A80184BC552005E36E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D506A87184BC552005E36E6 /* PBXTargetDependency */,
+			);
+			name = HomeAutomationMacTests;
+			productName = HomeAutomationMacTests;
+			productReference = 7D506A82184BC552005E36E6 /* HomeAutomationMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D506A59184BC551005E36E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Chicken Studios";
+				TargetAttributes = {
+					7D506A81184BC552005E36E6 = {
+						TestTargetID = 7D506A60184BC551005E36E6;
+					};
+				};
+			};
+			buildConfigurationList = 7D506A5C184BC551005E36E6 /* Build configuration list for PBXProject "HomeAutomationMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D506A58184BC551005E36E6;
+			productRefGroup = 7D506A62184BC551005E36E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D506A60184BC551005E36E6 /* HomeAutomationMac */,
+				7D506A81184BC552005E36E6 /* HomeAutomationMacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D506A5F184BC551005E36E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D506A6F184BC552005E36E6 /* InfoPlist.strings in Resources */,
+				7D506A7D184BC552005E36E6 /* Images.xcassets in Resources */,
+				7D506A75184BC552005E36E6 /* Credits.rtf in Resources */,
+				7D506A7B184BC552005E36E6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D506A80184BC552005E36E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D506A8D184BC552005E36E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D506A5D184BC551005E36E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D506A71184BC552005E36E6 /* main.m in Sources */,
+				7D506A78184BC552005E36E6 /* JMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D506A7E184BC552005E36E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D506A8F184BC552005E36E6 /* HomeAutomationMacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D506A87184BC552005E36E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D506A60184BC551005E36E6 /* HomeAutomationMac */;
+			targetProxy = 7D506A86184BC552005E36E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D506A6D184BC552005E36E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D506A6E184BC552005E36E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7D506A73184BC552005E36E6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D506A74184BC552005E36E6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7D506A79184BC552005E36E6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D506A7A184BC552005E36E6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		7D506A8B184BC552005E36E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D506A8C184BC552005E36E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D506A90184BC552005E36E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7D506A91184BC552005E36E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7D506A93184BC552005E36E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeAutomationMac/HomeAutomationMac-Prefix.pch";
+				INFOPLIST_FILE = "HomeAutomationMac/HomeAutomationMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D506A94184BC552005E36E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeAutomationMac/HomeAutomationMac-Prefix.pch";
+				INFOPLIST_FILE = "HomeAutomationMac/HomeAutomationMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7D506A96184BC552005E36E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HomeAutomationMac.app/Contents/MacOS/HomeAutomationMac";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeAutomationMac/HomeAutomationMac-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HomeAutomationMacTests/HomeAutomationMacTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7D506A97184BC552005E36E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HomeAutomationMac.app/Contents/MacOS/HomeAutomationMac";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeAutomationMac/HomeAutomationMac-Prefix.pch";
+				INFOPLIST_FILE = "HomeAutomationMacTests/HomeAutomationMacTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D506A5C184BC551005E36E6 /* Build configuration list for PBXProject "HomeAutomationMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D506A90184BC552005E36E6 /* Debug */,
+				7D506A91184BC552005E36E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D506A92184BC552005E36E6 /* Build configuration list for PBXNativeTarget "HomeAutomationMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D506A93184BC552005E36E6 /* Debug */,
+				7D506A94184BC552005E36E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D506A95184BC552005E36E6 /* Build configuration list for PBXNativeTarget "HomeAutomationMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D506A96184BC552005E36E6 /* Debug */,
+				7D506A97184BC552005E36E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D506A59184BC551005E36E6 /* Project object */;
+}
