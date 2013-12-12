@@ -150,7 +150,7 @@
 }
 
 - (void)netServiceDidPublish:(NSNetService *)sender {
-    NSLog(@"We mofucking published");
+    NSLog(@"We published");
 }
 
 - (void)netServiceWillPublish:(NSNetService *)sender {
